@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>فروشگاه کتاب</title>
+</head>
+
+<style>
+    body{
+        background-color: floralwhite;
+         font-size:20px;
+          margin: 0;
+        
+    }
+    .nav{
+        background-color:rgb(120, 63, 42) ;
+        color:floralwhite;
+        text-align: center;
+        font-size: 38px;
+        margin-top: 0;
+        margin-bottom: 30px;
+        padding:15px; width: 100%;
+
+    }
+
+    th,td{
+        text-align: center;
+        border: 1px solid #555;
+        padding: 11px;
+    }
+    .books-container {
+    
+    padding: 20px;
+    font-family: Tahoma, sans-serif;
+    color: rgb(57, 38, 12);
+    direction: rtl;
+  }
+    .books-container2 {
+    
+    background-color:rgb(244, 223, 197);
+    padding: 40px;
+    font-family: Tahoma, sans-serif;
+    color: rgb(57, 38, 12);
+    direction: rtl;
+  }
+
+  .category-title {
+    font-size: 25px;
+    margin: 25px 0 15px;
+    color: rgb(120, 63, 42); 
+  }
+
+  .book-row {
+    display: flex;
+    gap: 15px;
+  }
+
+  .book-item {
+    background-color: rgb(255, 245, 232);
+    border-radius: 8px;
+    padding: 12px;
+    width: 33%; /* تقسیم فضای صفحه به سه قسمت */
+    text-align: center;
+    transition: transform 0.2s;
+  }
+
+  .book-item:hover {
+    transform: scale(1.02);
+  }
+
+  .book-item img {
+    width: 250px;
+    height:300px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+
+  .book-item h4 {
+    margin: 0 0 8px 0;
+    font-size: 0.95rem;
+  }
+
+  .book-item p {
+    font-size: 15px;
+    color: #585858;
+    line-height: 1.5;
+    margin: 0;
+  }
+  .footer{
+         background-color:rgb(120, 63, 42) ;
+        color:floralwhite;
+        text-align:right;
+        font-size: 20px;
+        margin-top: 0;
+        margin-bottom: 30px;
+        padding:15px; 
+        width: 100%;
+  }
+</style>
+
+<body>
+    
+<div class="nav">فروشگاه کتاب</div>
+
+<div class="books-container">
+  <!-- بخش اول: ماجراجویی -->
+  <h3 class="category-title">ژانر ماجراجویی</h3>
+  <div class="book-row">
+    <div class="book-item">
+      <img src="./1.jpg" alt="کتاب">
+      <h4> تولد در لس آنجلس</h4>
+     <p>نویسنده:بهزاد دانشگر</p>
+     <p>خاطرات محمد عرب </p>
+     <br>
+       
+      <p>روایتی از جستجوی هویت و تنهایی در فضای <br>غریبِ مهاجرت و غربت.</p>
+      <br>
+    </div>
+    <div class="book-item">
+      <img src="./3.jpg" alt="کتاب">
+      <h4>سفر به مرکز زمین</h4>
+      <p>نویسنده: ژول ورن، کلاید نهرنز</p>
+      <p> مترجم: مریم قنبری</p>
+      <br>
+      <p>اکتشافی علمی و خطرناک در اعماق <br>ناشناخته‌های سیاره زمین.</p>
+      <br>
+    </div>
+    <div class="book-item">
+      <img src="./4.jpg" alt="کتاب">
+      <h4>دور دنیا در ۸۰ روز</h4>
+      <p>نویسنده: ژول ورن</p>
+      <p>مترجم: فرزانه مهری</p>
+      
+     <br>
+      <p>سفری پرشتاب و هیجان‌انگیز برای برنده شدن <br>در یک شرط‌بندی بزرگ.</p>
+      <br>
+    </div>
+  </div>
+</div>
+   <hr>
+   <div class="books-container2">
+  <!-- بخش دوم: کلاسیک -->
+  <h3 class="category-title">ژانر کلاسیک</h3>
+  <div class="book-row">
+    <div class="book-item">
+      <img src="./5.jpg" alt="کتاب">
+      <h4>غرور و تعصب</h4>
+      <p>نویسنده:جین آستن</p>
+      <p>مترجم:نیلوفر شیرازیان</p>
+      <br>
+      <p>روایتی از پیچیدگی‌های روابط عاشقانه <br>و جایگاه اجتماعی در انگلستان.</p>
+      <br>
+    </div>
+    <div class="book-item">
+      <img src="./6.jpg" alt="کتاب">
+      <h4>بینوایان</h4>
+      <p>نویسنده:ویکتور هوگو</p>
+      <p>مترجم:نسرین تولایی، ناهید ملکوتی</p>
+      <br>
+      <p>داستانی حماسی از رستگاری، عدالت<br> و عشق در دل ناامیدی‌های پاریس.</p>
+      <br>
+    </div>
+    <div class="book-item">
+      <img src="./7.jpg" alt="کتاب">
+      <h4>جنگ و صلح</h4>
+      <p>نویسنده:لئو تولستوی</p>
+      <p>مترجم:شهاب ‍</p>
+      <br>
+      <p>شرحی عمیق از زندگی خانواده‌های <br>اشرافی در دوران تهاجم ناپلئون.</p>
+      <br>
+    </div>
+  </div>
+</div>
+</div>
+<div class="footer">
+    سازنده گان سایت:
+    <ul>
+        <li>
+            بهاره روحی
+        </li>
+        <li>
+            زهرا روشنی
+        </li>
+    </ul>
+    
+</div>
